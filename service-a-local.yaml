@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: service-a
-        image: zonex5cpb/service-a:0.1
+        image: zonex5cpb/service-a:1.9
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
